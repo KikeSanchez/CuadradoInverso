@@ -9,15 +9,23 @@
 
 		<script>
 
+
 function inverso (){
 	var num=document.getElementById("n1");
 	num.value = 1/num.value;
+	}
+function cuadrado (){
+	var num=document.getElementById("n1");
+	num.value = num.value * num.value;
+
 }
 	</script>
 	</head>
 	<body>
 			Number: <input type ="text" id="n1" onclick="empty();">
+
 			<p><button onclick="inverso()">1/x</button></p>
+			<p><button onclick="cuadrado()">x*2</button></p>
 	</body>
 
 </html>
